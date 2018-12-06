@@ -1,4 +1,4 @@
-# Hadoop cluster 精简版(hadoop & kafka & storm & hbase & phoenix & pig & zookeeper)
+# Hadoop cluster 精简版(hadoop & kafka & storm & hbase & phoenix & pig & zookeeper & flume)
 使用下面提到的hadoop服务构建一个轻量级的hadoop集群。 这些版本与Hortonworks HDP 2.3.4发行版的版本相匹配。
 
 ## Versions
@@ -13,6 +13,7 @@
 - Kafka manager: latest
 - Storm: 0.10.0
 - Phoenix: 4.7.0
+- Flume: 1.6.0
 
 Note: Hadoop和storm建立在Debian Linux和Alpine Linux上的版本上
 
@@ -87,6 +88,7 @@ OR
 - [Hbase README](hbase/README.md)
 - [Kafka README](kafka/README.md)
 - [Storm README](storm/README.md)
+- [Flume README](flume/README.md)
 
 ## Reference
 - https://hub.docker.com/r/wurstmeister/kafka/
